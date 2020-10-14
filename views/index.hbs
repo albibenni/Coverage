@@ -1,0 +1,72 @@
+<body>
+    <div class="titleBox">
+        <h2 class=titleMap>Map Coverage</h2>
+    </div>
+    <div class="topBoxContainer">
+        <div class="boxLeft">
+
+            <h3>Insert Data</h3>
+
+            <div class="input">
+                <label for="types">Type (Restaurant-Office)</label>
+                <input type="text" id="type" name="type">
+            </div>
+            <div class="input">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <button id="submit" class="addMark">Submit</button>
+
+
+            {{!-- <button id="insert">Submit</button> --}}
+            {{!-- <button id="addMarkRest" class="addMark">Add a Restaurant</button> --}}
+
+            {{!-- <a href="/get-data" id="loadData">LOAD DATA</a>
+
+            {{!-- <button onclick="href=/get-data"  id="loadData">LOAD DATA</button> --}}
+            <div>
+                {{# each items }}
+                <article class="point" id="datas">
+                    <div>Type: {{ this.type }}</div>
+                    <div>Address: {{ this.address }}</div>
+                    <div>ID: {{ this._id }}</div>
+                </article>
+                {{/each}}
+            </div> --}}
+        </div>
+        <div class="boxMidLeft">
+            <h3>Get Data</h3>
+            <div id="demo">
+                <button type="button" id="getData">Get</button>
+            </div>
+        </div>
+        <div class="boxRight">
+            <h3 class="header2"> Ranges</h3>
+            <div id="info" class="info"></div>
+            <div id="info2" class="info"></div>
+        </div>
+
+    </div>
+
+
+    <div id="map" class="maps"></div>
+    <div class="box">
+        <div id="info3" class="coverage">Coverage Area</div>
+        <div id="info4" class="coverage"></div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+</body>

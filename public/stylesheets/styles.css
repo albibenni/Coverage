@@ -1,0 +1,121 @@
+body {
+  background: #333;
+}
+
+.titleBox {
+  background: chocolate;
+  border: 2px solid black;
+  height: fit-content;
+}
+
+.box22 {
+  background: inherit;
+  border: 2px solid black;
+  height: fit-content;
+}
+
+.topBoxContainer {
+  display: flex;
+}
+.boxMidLeft {
+  background: #333333;
+  width: 50%;
+  height: fit-content;
+}
+
+.boxRight {
+  background: #333333;
+  width: 50%;
+  height: fit-content;
+}
+.boxLeft {
+  background: #333333;
+  width: 50%;
+  height: fit-content;
+}
+
+.addMark {
+  align-items: left;
+  vertical-align: center;
+}
+
+.header2 {
+  text-align: right;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: xx-large;
+  animation-name: easeIn2;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  height: fit-content;
+}
+
+.titleMap {
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: xx-large;
+  animation-name: easeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  background: chocolate;
+  height: fit-content;
+}
+.coverage {
+  text-align: right;
+  color: aliceblue;
+  font-style: italic;
+  font-size: large;
+
+  animation-name: easeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+.info {
+  text-align: right;
+  color: gray;
+  font-style: italic;
+
+  animation-name: easeIn3;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+.maps {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  border: 5px solid black;
+
+  animation-name: easeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes easeIn {
+  0% {
+    color: #333;
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+@keyframes easeIn2 {
+  0% {
+    color: #333;
+  }
+  100% {
+    color: antiquewhite;
+  }
+}
+@keyframes easeIn3 {
+  0% {
+    color: #333;
+  }
+  100% {
+    color: gray;
+  }
+}
